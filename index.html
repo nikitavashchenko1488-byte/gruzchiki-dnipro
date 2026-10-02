@@ -80,14 +80,14 @@ const CONTACT={
  viber:"viber://chat?number=%2B380982992331"
 };
 function setLinks(){
- const tel="tel:"+CONTACT.phone;
+ const tel="tel:"+CONTACT.phone;+380982992331
  document.querySelectorAll("#phoneTop").forEach(x=>x.href=tel);
  document.getElementById("phoneText").textContent=CONTACT.phone.replace("+380","+38 0");
  document.getElementById("footerPhone").textContent=CONTACT.phone;
- const wa="https://wa.me/"+CONTACT.whatsapp;
+ const wa="https://wa.me/"+CONTACT.whatsapp;+380982992331
  ["waHero","waCta","floatWa"].forEach(id=>document.getElementById(id).href=wa);
- document.getElementById("tgCta").href=CONTACT.telegram;
- document.getElementById("vbCta").href=CONTACT.viber;
+ document.getElementById("tgCta").href=CONTACT.telegram;https://t.me/VashchenkoNikita
+ document.getElementById("vbCta").href=CONTACT.viber;380982992331
 }
 function sendOrder(e){
  e.preventDefault();
